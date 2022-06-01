@@ -9,17 +9,17 @@ dataset은 전자공시시스템에서 제공되는 2015, 2016, 2018년도의 �
 
 # Preprocessing
 scaling - min_max_scaler 사용  
-oversampling - SMOTE 사용
+oversampling - SMOTE 사용  
 train_test_split : train_set (80%), test_set (20%)
 
 
 # hyper parameter
-input = 9 (재무지표 개수와 동일)
-number of layer = 2
-activation function = ReLU
-output = 4 (업종 수와 동일)
-epochs = 1000
-optimization function = Rprop
+input = 9 (재무지표 개수와 동일)  
+number of layer = 2  
+activation function = ReLU  
+output = 4 (업종 수와 동일)  
+epochs = 1000  
+optimization function = Rprop  
 learning rate = 0.001
 
 
