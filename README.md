@@ -13,7 +13,7 @@ oversampling - SMOTE 사용
 train_test_split : train_set (80%), test_set (20%)
 
 
-# hyper parameter
+# Hyper parameter
 input = 9 (재무지표 개수와 동일)  
 number of layer = 2  
 activation function = ReLU  
@@ -23,9 +23,9 @@ optimization function = Rprop
 learning rate = 0.001
 
 
-# result
+# Result
 제조업에 대한 분류 성능은 월등히 좋음
 
 
-# limitation
+# Limitation
 손익계산서 정보가 누락되었기 때문에 다양한 재무지표를 수집되지 못했으며, 손익계산서로부터 파악 가능한 매출채권, 매입채무, 영업이익 등의 정보가 수집된다면 다른 업종의 분류 성능도 좋아질 것으로 예상됩니다.
