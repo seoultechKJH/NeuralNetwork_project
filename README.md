@@ -8,7 +8,7 @@ dataset은 전자공시시스템에서 제공되는 2015, 2016, 2018년도의 �
 
 
 # Preprocessing
-scaling - min_max_scaler 사용
+scaling - min_max_scaler 사용  
 oversampling - SMOTE 사용
 train_test_split : train_set (80%), test_set (20%)
 
